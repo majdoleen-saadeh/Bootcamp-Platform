@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "vite build",
+    "predeploy": "VITE_FIREBASE_API_KEY=AIzaSyAsMkWgjCVyEhyeGWDecnObYwvxQSP-vOw VITE_FIREBASE_AUTH_DOMAIN=bootcamp-platform-16413.firebaseapp.com VITE_FIREBASE_PROJECT_ID=bootcamp-platform-16413 VITE_FIREBASE_STORAGE_BUCKET=bootcamp-platform-16413.firebasestorage.app VITE_FIREBASE_MESSAGING_SENDER_ID=334356145024 VITE_FIREBASE_APP_ID=1:334356145024:web:12f92764b90695e5e2d765 vite build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
